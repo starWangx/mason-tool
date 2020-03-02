@@ -65,7 +65,6 @@ export default [
       //   include: ['src/**'],
       //   exclude: ['node_modules/**']
       // }),
-      terser()
     ]
   }
 ];
