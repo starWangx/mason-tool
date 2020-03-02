@@ -1,0 +1,37 @@
+{
+  "name": "mason-tool",
+  "version": "1.0.0",
+  "description": "js lib of Mason",
+  "main": "src",
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starWangx/mason-tool.git"
+  },
+  "keywords": [
+    "js",
+    "tool"
+  ],
+  "author": "Mason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starWangx/mason-tool/issues"
+  },
+  "homepage": "https://github.com/starWangx/mason-tool#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "typescript": "^3.8.3"
+  }
+}
